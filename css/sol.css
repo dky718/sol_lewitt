@@ -1,0 +1,134 @@
+body{
+}
+.box{
+	width: 100px;
+	height: 100px;
+}
+.boxcircle{
+	width: 141.421px;
+	height: 141.421px;
+}
+.boxoutline{
+	width: 100px;
+	height: 100px;
+	border: 2px solid #000000;
+	margin: 20px 10px;
+}
+/** Quarter Circles **
+ *********************/
+.type1{
+    border-top:  2px solid #000000;
+    border-left: 2px solid #000000;
+    border-radius: 100px 0 0 0;
+}
+.type2{
+    border-radius: 0 100px 0 0;
+    border-right: 2px solid #000000;
+    border-top:   2px solid #000000;
+}
+.type3{
+    border-right:  2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-radius: 0 0 100px 0;
+}
+.type4{
+    border-left:   2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-radius: 0 0 0 100px;
+}
+/******** Arc ********
+ *********************/
+.type5{
+	border: 2px solid #000000;
+	border-radius: 50%;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	-webkit-transform: translateY(-20.853px) translateX(-70.711px);
+}
+.type6{
+	border: 2px solid #000000;
+	border-radius: 50%;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	-webkit-transform: translateX(-21.711px) translateY(-70.711px);
+}
+.type7{
+	border: 2px solid #000000;
+	border-radius: 50%;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	-webkit-transform: translateY(-21.711px) translateX(29.283px);
+}
+.type8{
+	border: 2px solid #000000;
+	border-radius: 50%;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	-webkit-transform: translateX(-21.853px) translateY(29.283px);
+}
+
+/** Straight Lines ***
+ *********************/
+.type9{
+	border-left: 2px solid #000000;
+	-webkit-transform: translateX(50%);
+}
+.type10{
+	border-top: 2px solid #000000;
+	-webkit-transform: translateY(50%);
+}
+.type11{
+	width: 141.421px;
+	border-top: 2px solid #000000;
+	-webkit-transform-origin: right top;
+	-webkit-transform: translateX(-41.422px) rotate(-45deg) ;
+}
+.type12{
+	width: 141.421px;
+	border-top: 2px solid #000000;
+	-webkit-transform: rotate(45deg);
+	-webkit-transform-origin: left top;
+}
+}
+/** TODO using javascript for bezier/quadratic curves
+ ** Squiggly Lines ***
+ *********************/
+.type13{
+	
+}
+.type14{
+	
+}
+.type15{
+	
+}
+.type16{
+	
+}
+/*** Dashed Lines ***
+ *********************/
+.type17{
+	border-left: 2px dashed #000000;
+	-webkit-transform: translateX(50%);
+}
+.type18{
+	border-top: 2px dashed #000000;
+	-webkit-transform: translateY(50%);
+}
+.type19{
+	width: 141.421px;
+	border-top: 2px dashed #000000;
+	-webkit-transform-origin: right top;
+	-webkit-transform: translateX(-41.422px) rotate(-45deg) ;
+}
+.type20{
+	width: 141.421px;
+	border-top: 2px dashed #000000;
+	-webkit-transform: rotate(45deg);
+	-webkit-transform-origin: left top;
+}
+
